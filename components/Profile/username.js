@@ -1,17 +1,17 @@
 import styled from "styled-components";
 import Grid from "../Section/grid";
 
-const Styledwrapper = styled.div`
+const Wrapper = styled.div`
   margin-top: 0.25rem;
   grid-column: span 2 / span 2;
 `;
-const Styleddiv = styled.div`
+const Div = styled.div`
   display: flex;
   max-width: 32rem;
   border-radius: 0.375rem;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 `;
-const Styledspan = styled.span`
+const Span = styled.span`
   display: inline-flex;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -24,12 +24,13 @@ const Styledspan = styled.span`
   border-top-left-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
 `;
-const Styledinput = styled.input`
+const Input = styled.input`
   appearance: none;
   background-color: #fff;
   border-color: #d2d6dc;
   border-width: 1px;
   border-radius: 0.375rem;
+  border-style: solid;
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -43,12 +44,12 @@ const Styledinput = styled.input`
 function Username() {
   return (
     <Grid label="Username">
-      <Styledwrapper>
-        <Styleddiv>
-          <Styledspan>servicenow.com/</Styledspan>
-          <Styledinput id="username" />
-        </Styleddiv>
-      </Styledwrapper>
+      <Wrapper>
+        <Div>
+          <Span>servicenow.com/</Span>
+          <Input id="username" />
+        </Div>
+      </Wrapper>
     </Grid>
   );
 }

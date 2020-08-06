@@ -23,9 +23,11 @@ const Textarea = styled.textarea`
   resize: vertical;
   overflow: auto;
   margin: 0;
+  border-color: #d2d6dc;
 `;
 
 const Styledtext = styled.p`
+  margin-top: 0.5rem;
   color: #a0aec0;
 `;
 

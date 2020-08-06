@@ -35,7 +35,7 @@ const Button = styled.button`
   font-weight: 500;
   border-width: 1px;
   border-radius: 0.375rem;
-
+  border-style: solid;
   border-color: #e2e8f0;
   border-color: rgba(226, 232, 240, 1);
   background-color: transparent;
@@ -44,9 +44,8 @@ const Button = styled.button`
   margin: 0;
   &:focus {
     outline: 0;
-
     border-color: #90cdf4;
-    border-color: rgba(144, 205, 244, 1);
+    text-decoration: none;
   }
 `;
 const SVG = styled.svg`

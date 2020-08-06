@@ -10,6 +10,9 @@ const Div = styled.div`
   gap: 1rem;
   border-top-width: 1px;
   border-color: #edf2f7;
+  @media (max-width: 768px) {
+    display: block;
+  }
 `;
 
 function grid(props) {

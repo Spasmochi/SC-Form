@@ -46,11 +46,7 @@ function Username() {
       <Styledwrapper>
         <Styleddiv>
           <Styledspan>servicenow.com/</Styledspan>
-
-          <Styledinput
-            id="username"
-            class="min-w-0 rounded-none rounded-r-md transition duration-150 ease-in-out "
-          />
+          <Styledinput id="username" />
         </Styleddiv>
       </Styledwrapper>
     </Grid>
